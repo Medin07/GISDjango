@@ -46,6 +46,7 @@
 
     <link href="{% static 'gis/styles.css' %}" rel="stylesheet">
     <link href="(% comment %)((STATIC_URL)) gis/styles.css(% endcomment %)" rel="stylesheet">
+    {% block maphead %}{% endblock %}
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
